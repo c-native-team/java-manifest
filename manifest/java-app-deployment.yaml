@@ -18,5 +18,8 @@ spec:
       containers:
       - name: java
         image: image-registry.openshift-image-registry.svc:5000/endo-work/test-run-kt6jn
+        env:
+          - name: JAVA_APP_JAR
+            value: executable_app.jar
       serviceAccount: endo
       serviceAccountName: endo
