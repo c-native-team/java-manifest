@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: java
-        image: default-route-openshift-image-registry.apps.cnvcls.cnvdom.jp/endo-work/test-run-kt6jn
+        image: image-registry.openshift-image-registry.svc:5000/endo-work/test-run-kt6jn
       serviceAccount: endo
       serviceAccountName: endo
