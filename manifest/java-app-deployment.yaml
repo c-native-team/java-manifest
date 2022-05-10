@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: java
-        image: image-registry.openshift-image-registry.svc:5000/endo-work/java-app
+        image: image-registry.openshift-image-registry.svc:5000/endo-work/java-app:deploy
         env:
           - name: JAVA_APP_JAR
             value: executable_app.jar
